@@ -4,11 +4,13 @@ import { Route } from 'react-router-dom'
 
 // import Components
 import ExampleComponent from './ExampleComponent.jsx'
+import Header from './Header.jsx'
 
 function App () {
   return (
     <div className='app'>
-      <Route path='/' component={ExampleComponent} />
+      <Header />
+      {/* <Route path='/' component={ExampleComponent} /> */}
       {/* <Route path='/' component={ErrorMessage} /> */}
     </div>
   )
