@@ -1,0 +1,23 @@
+.header {
+  background-color: #cccccc;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+}
