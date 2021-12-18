@@ -1,6 +1,7 @@
 .header {
   background-color: #cccccc;
   padding: 1rem;
+  margin: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,15 +10,32 @@
 .titles {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .icons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .icon {
   margin: 0.5rem;
   padding: 0.5rem;
-  display: flex;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: 'Courier New', Arial;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Courier New', Arial;
+  font-size: 1.2rem;
+  color: blue;
+  margin: 0;
+  padding: 0;
 }

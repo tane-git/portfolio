@@ -2,8 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const github = <FontAwesomeIcon icon={faGithub} />
-const linkedIn = <FontAwesomeIcon icon={faLinkedin} />
+const github = <FontAwesomeIcon icon={faGithub} size="lg" />
+const linkedIn = <FontAwesomeIcon icon={faLinkedin} size="lg" />
 
 export default function Header () {
   return (
@@ -18,10 +18,10 @@ export default function Header () {
       </div>
       <div className='icons'>
         <div className='icon'>
-          {github}
+          <a href='https://www.linkedin.com/in/tane-w/'>{linkedIn}</a>
         </div>
         <div className='icon'>
-          {linkedIn}
+          <a href='https://github.com/tane-git'>{github}</a>
         </div>
       </div>
     </div>
