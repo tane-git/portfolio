@@ -34,6 +34,9 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^1.8.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "express": "^4.17.1",
     "react-router-dom": "^5.2.0"
   },
