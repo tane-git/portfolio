@@ -18,7 +18,7 @@ export default function Header () {
       </div>
       <div className='icons'>
         <div className='connect'>
-          <img className='connectImg' src='/images/letsConnect.png' />
+          <img className='connectImg' src='/images/connect.png' />
         </div>
         <div className='icon'>
           <a href='https://www.linkedin.com/in/tane-w/' target='_blank' rel='noreferrer' >{linkedIn}</a>
