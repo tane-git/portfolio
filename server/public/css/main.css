@@ -25,6 +25,18 @@
   font-size: 2rem;
 }
 
+.connect {
+  width: auto;
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.connectImg {
+  height: 3rem;
+}
+
 h1 {
   font-family: 'Courier New', Arial;
   font-size: 1.5rem;
@@ -38,4 +50,12 @@ h2 {
   color: blue;
   margin: 0;
   padding: 0;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
 }

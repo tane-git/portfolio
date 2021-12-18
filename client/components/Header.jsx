@@ -17,11 +17,14 @@ export default function Header () {
         </div>
       </div>
       <div className='icons'>
-        <div className='icon'>
-          <a href='https://www.linkedin.com/in/tane-w/'>{linkedIn}</a>
+        <div className='connect'>
+          <img className='connectImg' src='/images/letsConnect.png' />
         </div>
         <div className='icon'>
-          <a href='https://github.com/tane-git'>{github}</a>
+          <a href='https://www.linkedin.com/in/tane-w/' target='_blank' rel='noreferrer' >{linkedIn}</a>
+        </div>
+        <div className='icon'>
+          <a href='https://github.com/tane-git' target='_blank' rel='noreferrer' >{github}</a>
         </div>
       </div>
     </div>
