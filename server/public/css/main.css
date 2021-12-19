@@ -1,4 +1,5 @@
 .header {
+  width: auto;
   padding: 1rem;
   margin: 1rem;
   background-color: #cccccc;
@@ -14,6 +15,10 @@
   justify-content: center;
 }
 
+.title {
+  display: flex;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
@@ -22,9 +27,6 @@
 
 .icon {
   margin: 0.5rem;
-  margin-left: 0px;
-  padding: 0.5rem;
-  font-size: 2rem;
 }
 
 .connect {
@@ -36,6 +38,8 @@
 
 .connectImg {
   height: 3rem;
+  margin-left:1rem;
+  margin-right: 0.25rem;
 }
 
 h1 {
