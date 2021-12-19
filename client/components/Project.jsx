@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function Project (props) {
   const project = props.project
-  console.log('TCL: Project -> project', project)
 
   return (
     <>

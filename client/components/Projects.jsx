@@ -1,5 +1,7 @@
 import React from 'react'
 import Project from './Project.jsx'
+import accordion from '../helpers/accordion.js'
+import { useEffect } from 'react'
 
 export default function Projects () {
   const projects = [
@@ -17,6 +19,10 @@ export default function Projects () {
     }
   ]
 
+  useEffect(() => {
+    accordion()
+  }, [])
+
   return (
     <div className='projects'>
       <h1>Projects</h1>
@@ -24,7 +30,14 @@ export default function Projects () {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
       {projects.map(project => {
-        return (<Project key={project.title} project={project} />)
+        return (
+          <div key={project.title}>
+            <button className='accordion'>{project.title}</button>
+            <div className='panel'>
+              <Project project={project} />
+            </div>
+          </div>
+        )
       })}
     </div>
   )
