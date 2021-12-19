@@ -5,11 +5,13 @@ import { Route } from 'react-router-dom'
 // import Components
 import ExampleComponent from './ExampleComponent.jsx'
 import Header from './Header.jsx'
+import Projects from './Projects.jsx'
 
 function App () {
   return (
     <div className='app'>
       <Header />
+      <Projects />
       {/* <Route path='/' component={ExampleComponent} /> */}
       {/* <Route path='/' component={ErrorMessage} /> */}
     </div>
