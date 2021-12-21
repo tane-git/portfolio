@@ -24,14 +24,13 @@ export default function Projects () {
 
   return (
     <div className='projects'>
-      <h1>Projects</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
+      <div className='sectionTitle'>
+        <h1>Projects</h1>
+      </div>
       {projects.map(project => {
         return (
-          <div key={project.title}>
-            <button className='accordion'>{project.title}</button>
+          <div className='project' key={project.title}>
+            <button className='accordion'><h3>{project.title}</h3></button>
             <div className='panel'>
               <Project project={project} />
             </div>

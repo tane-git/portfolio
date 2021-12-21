@@ -5,10 +5,9 @@ export default function Project (props) {
 
   return (
     <>
-      <h1>{project.title}</h1>
-      <p><h2>What:</h2>{project.what}</p>
-      <p><h2>Who:</h2>{project.who}</p>
-      <p><a href={project.link}><h2>{project.title}</h2></a></p>
+      <p><h4>What:</h4>{project.what}</p>
+      <p><h4>Who:</h4>{project.who}</p>
+      <p><a href={project.link}><h4>{project.title}</h4></a></p>
     </>
   )
 }
