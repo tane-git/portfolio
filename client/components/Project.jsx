@@ -5,9 +5,14 @@ export default function Project (props) {
 
   return (
     <>
-      <p><h4>What:</h4>{project.what}</p>
-      <p><h4>Who:</h4>{project.who}</p>
-      <p><a href={project.link}><h4>{project.title}</h4></a></p>
+      <div className='projectSection'><h4>What:</h4>{project.what}</div>
+      <div className='projectSection'><h4>Who:</h4>{project.who}</div>
+      <div className='projectSection'>
+        <a href={project.link}>
+          <h4>Check it out!</h4>
+          <img src='images/argumentum.PNG' alt='Screenshot of Argumentum Live Chat app' />
+        </a>
+      </div>
     </>
   )
 }
