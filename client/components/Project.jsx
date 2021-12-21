@@ -10,7 +10,7 @@ export default function Project (props) {
       <div className='projectSection'>
         <a href={project.link}>
           <h4>Check it out!</h4>
-          <img src='images/argumentum.PNG' alt='Screenshot of Argumentum Live Chat app' />
+          <img className='projectImg' src='images/argumentum.PNG' alt='Screenshot of Argumentum Live Chat app' />
         </a>
       </div>
     </>
