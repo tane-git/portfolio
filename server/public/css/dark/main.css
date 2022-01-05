@@ -107,6 +107,7 @@ a:hover {
 .projects {
   width: auto;
   padding: 1rem;
+  padding-bottom: 1.5rem;
   margin: 1rem;
   background-color: var(--s1-color);
   display: flex;
