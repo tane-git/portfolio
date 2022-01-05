@@ -1,4 +1,6 @@
+/* CSS styles for small tablets */
 @media screen and (max-width: 625px) {
+  /* decreasing the sizes of the 'connect with me!' image and social media buttons */
   .connectImg {
     height: 2rem;
     margin-left:0rem;
@@ -11,16 +13,56 @@
   }
 }
 
+/* CSS styles for phones */
 @media screen and (max-width: 530px) {
+  /* changing the header to fit a potrait screen */
    .header {
     flex-direction: column;
+    margin-left: 0;
+    margin-right: 0; 
   }
 
-  .h2 {
-    margin-bottom: 0.5rem;
+  .icons {
+    justify-content: flex-end;
+  }
+
+  /* reducing side margins and paddings */
+  .projects {
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .project {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .accordion {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .projectSection {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .panel {
+    padding: 0.5rem;
+  }
+
+  h2 {
+    margin-bottom: 0rem;
+  }
+  
+  h4 {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
   }
 }
 
+/* CSS styles for very small screens */
 @media screen and (max-width: 300px) {
   .header {
     background-color: var(--bg-color);
