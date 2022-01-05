@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server",
     "dev": "run-p client server",
+    "build": "run-p build:client",
+    "build:client": "npm run webpack -- --mode production",
+    "webpack": "webpack --config ./client/webpack.config.js",
     "client": "webpack --watch --config client/webpack.config.js",
     "server": "nodemon server",
     "knex": "knex --knexfile server/db/knexfile.js",
