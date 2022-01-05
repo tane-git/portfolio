@@ -52,8 +52,13 @@
     padding: 0.5rem;
   }
 
-  .h2 {
-    margin-bottom: 0.5rem;
+  h2 {
+    margin-bottom: 0rem;
+  }
+  
+  h4 {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
   }
 }
 
