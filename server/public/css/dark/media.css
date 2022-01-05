@@ -1,0 +1,28 @@
+@media screen and (max-width: 625px) {
+  .connectImg {
+    height: 2rem;
+    margin-left:0rem;
+  } 
+
+  .icon {
+    margin: 0.25rem;
+    font-size: 2rem;
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+   .header {
+    flex-direction: column;
+  }
+
+  .h2 {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header {
+    background-color: var(--bg-color);
+  }
+}
