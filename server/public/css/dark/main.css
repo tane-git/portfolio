@@ -1,9 +1,12 @@
 /* color theme */
 :root {
   --bg-color: rgb(50, 50, 50);
+  /* section colors */
   --s1-color: rgb(37, 37, 37);
   --s2-color: rgb(30, 30, 30);
   --s3-color: rgb(24, 26, 27);
+  --s4-color: rgb(20, 20, 20);
+  /* text colors */
   --h1-color: rgb(255, 255, 255);
   --h2-color: rgb(51, 125, 255);
   --h3-color: rgb(255, 255, 255);
@@ -131,13 +134,13 @@ a:hover {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: var(--s2-color);
+  background-color: var(--s3-color);
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: var(--s2-color);
+  background-color: var(--s3-color);
   display: none;
   overflow: hidden;
 }
@@ -165,7 +168,7 @@ a:hover {
   width: auto;
   margin: 1rem;
   padding: 1rem;
-  background-color: var(--s3-color);
+  background-color: var(--s4-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
