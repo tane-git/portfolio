@@ -49,6 +49,11 @@ body {
 
 .icon {
   margin: 0.5rem;
+  color: var(--text-color)
+}
+
+.iconLink {
+  color: var(--text-color);
 }
 
 .connect {
