@@ -22,10 +22,14 @@ export default function Header () {
           <img className='connectImg' src='/images/dark/connect.png' />
         </div>
         <div className='icon'>
-          <a href='https://www.linkedin.com/in/tane-w/' target='_blank' rel='noreferrer' >{linkedIn}</a>
+          <a href='https://www.linkedin.com/in/tane-w/' target='_blank' rel='noreferrer' className='iconLink' >
+            {linkedIn}
+          </a>
         </div>
         <div className='icon'>
-          <a href='https://github.com/tane-git' target='_blank' rel='noreferrer' >{github}</a>
+          <a href='https://github.com/tane-git' target='_blank' rel='noreferrer' className='iconLink' >
+            {github}
+          </a>
         </div>
       </div>
     </div>
