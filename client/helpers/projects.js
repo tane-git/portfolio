@@ -11,6 +11,16 @@ export default function projectsData () {
       note: 'Sorry this app takes a while to load :('
     },
     {
+      title: 'Cruellas',
+      what: 'A Bootcamp Friday Project, full stack web application, which is based on the idea that everyone is the best in the world at something! What are you the best in the world at? Add your skill to our website and include a little story to explain and our app will generate a full blown story for your skill and display it on the homepage.',
+      who: 'A team of 4. We worked together closely on the front and backend.',
+      link: 'https://cruellas.herokuapp.com',
+      github: 'https://github.com/horoeka-2021/cruella',
+      image: 'cruellas-ipad.PNG',
+      imageAlt: 'Screenshot of the Cruellas homepage',
+      note: 'Add a skill and then check out the randomly generated story from the homepage!'
+    },
+    {
       title: 'CoinGun',
       what: 'A Bootcamp Friday Project web app that shows the currently trending cryptocurrencies on GeckoCoin.com',
       who: 'A team of 4, my pair programming partner and I did the Backend and integration into the Frontend.',
