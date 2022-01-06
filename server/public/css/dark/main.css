@@ -179,19 +179,17 @@ a:hover {
   justify-content: space-between;
 }
 
-
-
-/* A class for making sure the image is not too big for the screen */
-.projectImg {
-  /* width: 100%; */
-  /* height: auto; */
-  max-width: 100%;
-  max-height: 100%;
-  text-align: center;
-  /* centre the image in the div */
+.projectImgSection {
+  overflow: hidden;
   display:flex;
   align-items: center;
   justify-content: center;
+}
+
+.projectImg {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Classes for applying different colors to text */
