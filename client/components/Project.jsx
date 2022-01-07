@@ -2,8 +2,9 @@ import React from 'react'
 
 // import font awesome icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faNode } from '@fortawesome/free-brands-svg-icons'
 const react = <FontAwesomeIcon icon={faReact} size='lg' />
+const node = <FontAwesomeIcon icon={faNode} size='lg' />
 
 export default function Project (props) {
   const project = props.project
@@ -22,7 +23,12 @@ export default function Project (props) {
         </a>
       </div>
       <div className='projectSection'><h4>Tech:</h4>
-        {react}
+        {project.tech.map((tech, i) => {
+          switch (tech) {
+            case 'react': return <div key={i} className='tech'>{react}</div>
+            case 'node': return <div key={i} className='tech'>{node}</div>
+          }
+        })}
       </div>
       <div className='projectSection'><h4>Note:</h4><p className='note'>{project.note}</p></div>
     </>

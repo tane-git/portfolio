@@ -6,6 +6,7 @@ export default function projectsData () {
       who: 'A team of 4. I was the Frontend Lead and Product Owner.',
       link: 'https://argumentum-eda.herokuapp.com',
       github: 'https://github.com/horoeka-2021/argumentum',
+      tech: ['react', 'node', 'express', 'html', 'css', 'webpack', 'javascript'],
       image: 'argumentum-ipad.PNG',
       imageAlt: 'Screenshot of the Argumentum chat room',
       note: 'Sorry this app takes a while to load :('
@@ -16,6 +17,7 @@ export default function projectsData () {
       who: 'A team of 4. We worked together closely on the front and backend.',
       link: 'https://cruellas.herokuapp.com',
       github: 'https://github.com/horoeka-2021/cruella',
+      tech: ['react', 'node', 'express', 'html', 'css', 'webpack', 'javascript'],
       image: 'cruellas-ipad.PNG',
       imageAlt: 'Screenshot of the Cruellas homepage',
       note: 'Add a skill and then check out the randomly generated story from the homepage!'
@@ -26,7 +28,7 @@ export default function projectsData () {
       who: 'A team of 4, my pair programming partner and I did the Backend and integration into the Frontend.',
       link: 'http://coingun.herokuapp.com/#/',
       github: 'https://github.com/horoeka-2021/gecko',
-      tech: ['React', 'Node', 'Express', 'HTML', 'CSS', 'Webpack', 'Javascript', 'Three.js'],
+      tech: ['react', 'node', 'express', 'html', 'css', 'webpack', 'javascript', 'three.js'],
       image: 'coingun-ipad.PNG',
       imageAlt: 'Screenshot of CoinGun trending coins',
       note: 'To see the trending cryptocurrencies, you need to click on the bullseye but the title covers some of this button.'
@@ -37,7 +39,7 @@ export default function projectsData () {
       who: 'A team of 4. We worked closely as a team to put our fresh React skills to use.',
       link: 'https://santas-shopping-list.herokuapp.com/#/',
       github: 'https://github.com/horoeka-2021/Duck-Size-Bear/',
-      tech: ['React', 'Node', 'Express', 'HTML', 'CSS', 'Webpack', 'Javascript'],
+      tech: ['react', 'node', 'express', 'html', 'css', 'webpack', 'javascript'],
       image: 'santas-shopping-list.PNG',
       imageAlt: 'Screenshot of Santa\'s Shopping List for Tane',
       note: "The 'children' are the students and facilitators of the bootcamp!"
@@ -47,7 +49,7 @@ export default function projectsData () {
       what: 'A Bootcamp Friday Project, server-side rendered web app with a database, that allows users to sell antique coins for dogecoins. "Trade your useless coins for dogecoins!"',
       who: 'A team of 4, I worked on the non-design aspects of the project.',
       github: 'https://github.com/horoeka-2020/week_three_dogecoin',
-      tech: ['Node', 'Express', 'knex', 'sqlite3', 'PostgreSQL', 'Handlebars', 'HTML', 'CSS', 'Tailwind', 'JavaScript', 'supertest'],
+      tech: ['node', 'express', 'knex', 'sqlite3', 'postgresql', 'handlebars', 'html', 'css', 'tailwind', 'javascript', 'supertest'],
       image: 'fiatcoin-ipad.PNG',
       imageAlt: 'Screenshot of the FiatCoin homepage',
       note: 'Demo currently not available'
@@ -58,7 +60,7 @@ export default function projectsData () {
       who: 'A team of 3, we all worked closely together to put our freshly learnt coding skills to use.',
       link: 'https://cats-vs-birds.herokuapp.com/',
       github: 'https://github.com/horoeka-2021/week_two_team_jared',
-      tech: ['Node', 'Express', 'Handlebars', 'HTML', 'CSS', 'JavaScript'],
+      tech: ['node', 'express', 'handlebars', 'html', 'css', 'javascript'],
       image: 'cats-vs-birds-ipad.PNG',
       imageAlt: 'Screenshot of the Cats vs Birds homepage',
       note: 'The birds have fun facts on their profiles!'
