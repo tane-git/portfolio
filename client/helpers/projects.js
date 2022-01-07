@@ -6,6 +6,7 @@ export default function projectsData () {
       who: 'A team of 4. I was the Frontend Lead and Product Owner.',
       link: 'https://argumentum-eda.herokuapp.com',
       github: 'https://github.com/horoeka-2021/argumentum',
+      // tech: ['react', 'redux', 'node', 'express', 'html', 'css', 'webpack', 'javascript'],
       tech: ['react', 'node', 'express', 'html', 'css', 'webpack', 'javascript'],
       image: 'argumentum-ipad.PNG',
       imageAlt: 'Screenshot of the Argumentum chat room',
