@@ -1,16 +1,5 @@
 import React from 'react'
 
-// import Iconify from '@iconify/iconify'
-
-// import font awesome icons
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faNode, faHtml5, faJsSquare, faCss3Alt } from '@fortawesome/free-brands-svg-icons'
-const react = <FontAwesomeIcon icon={faReact} size='lg' />
-const node = <FontAwesomeIcon icon={faNode} size='lg' />
-const html = <FontAwesomeIcon icon={faHtml5} size='lg' />
-const css = <FontAwesomeIcon icon={faCss3Alt} size='lg' />
-const javaScript = <FontAwesomeIcon icon={faJsSquare} size='lg' />
-
 export default function Techs (props) {
   const project = props.project
 
