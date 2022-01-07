@@ -6,7 +6,7 @@ export default function projectsData () {
       who: 'A team of 4. I was the Frontend Lead and Product Owner.',
       link: 'https://argumentum-eda.herokuapp.com',
       github: 'https://github.com/horoeka-2021/argumentum',
-      tech: ['react', 'redux', 'node', 'express', 'html', 'css', 'webpack', 'javascript'],
+      tech: ['react', 'redux', 'node', 'sql', 'knex', 'express', 'html', 'css', 'webpack', 'javascript'],
       image: 'argumentum-ipad.PNG',
       imageAlt: 'Screenshot of the Argumentum chat room',
       note: 'Sorry this app takes a while to load :('
@@ -28,7 +28,7 @@ export default function projectsData () {
       who: 'A team of 4, my pair programming partner and I did the Backend and integration into the Frontend.',
       link: 'http://coingun.herokuapp.com/#/',
       github: 'https://github.com/horoeka-2021/gecko',
-      tech: ['react', 'node', 'express', 'html', 'css', 'webpack', 'javascript', 'three.js'],
+      tech: ['react', 'node', 'express', 'html', 'css', 'webpack', 'javascript', 'threeJs'],
       image: 'coingun-ipad.PNG',
       imageAlt: 'Screenshot of CoinGun trending coins',
       note: 'To see the trending cryptocurrencies, you need to click on the bullseye but the title covers some of this button.'
