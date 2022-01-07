@@ -15,7 +15,10 @@ export default function Project (props) {
       <div className='projectSection'>
         <h4>Link:</h4>
         <a href={project.link} target='_blank' rel='noreferrer'>
-          <img className='projectImg' src={`images/projects/${project.image}`} alt={project.imageAlt} />
+          {/* <img className='projectImg' src={`images/projects/${project.image}`} alt={project.imageAlt} /> */}
+          <div className='projectImgSection'>
+            <img className='projectImg' src={`images/projects/${project.image}`} alt={project.imageAlt} />
+          </div>
         </a>
       </div>
       <div className='projectSection'><h4>Tech:</h4>
