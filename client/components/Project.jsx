@@ -1,5 +1,10 @@
 import React from 'react'
 
+// import font awesome icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+const react = <FontAwesomeIcon icon={faReact} size='lg' />
+
 export default function Project (props) {
   const project = props.project
 
@@ -12,6 +17,9 @@ export default function Project (props) {
         <a href={project.link} target='_blank' rel='noreferrer'>
           <img className='projectImg' src={`images/projects/${project.image}`} alt={project.imageAlt} />
         </a>
+      </div>
+      <div className='projectSection'><h4>Tech:</h4>
+        {react}
       </div>
       <div className='projectSection'><h4>Note:</h4><p className='note'>{project.note}</p></div>
     </>
