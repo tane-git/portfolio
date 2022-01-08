@@ -52,7 +52,7 @@ export default function projectsData () {
       tech: ['node', 'express', 'knex', 'sqlite3', 'postgresql', 'handlebars', 'html', 'css', 'tailwind', 'javascript', 'supertest'],
       image: 'fiatcoin-ipad.PNG',
       imageAlt: 'Screenshot of the FiatCoin homepage',
-      note: 'Demo currently not available'
+      note: 'Demo currently unavailable'
     },
     {
       title: 'Cats vs Birds',
