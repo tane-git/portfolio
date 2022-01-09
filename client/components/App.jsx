@@ -11,7 +11,6 @@ function App () {
     <div className='app'>
       <Header />
       <About />
-      <Bootcamp />
       <Projects />
     </div>
   )

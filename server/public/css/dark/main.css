@@ -126,35 +126,46 @@ a:hover {
   justify-content: space-between;
 }
 
-table {
+.about {
+  /* width: auto; */
+  padding: 1rem;
   margin: 1rem;
+  background-color: var(--s1-color);
+}
+
+table {
   border-spacing: 0px;
+  width: 100%;
 }
 
 tr {
-  width: 100%;
+  /* width: 100%; */
   /* height: auto; */
 }
 
 td {
+  /* margin: 1rem; */
+  padding: 1rem;
   width: 50%;
   height: 100px;
+  background-color: var(--s2-color);
+  border: 1rem solid var(--s1-color);
+  vertical-align: top;
 }
 
-.about {
+
+.myself {
   /* width: auto; */
-  padding: 1rem;
-  /* margin: 1rem; */
-  background-color: var(--s1-color);
-  /* float: left; */
+  /* padding: 1rem; */
+  margin: 1rem;
+  /* float: right; */
   /* width: 50%; */
 }
 
 .bootcamp {
   /* width: auto; */
-  padding: 1rem;
-  /* margin: 1rem; */
-  background-color: var(--s1-color);
+  /* padding: 1rem; */
+  margin: 1rem;
   /* float: left; */
   /* width: 50%; */
 }
@@ -249,30 +260,30 @@ td {
   width: auto;
   max-width: 100%;
   max-height: 100%;
+  margin: 1rem;
 }
 
 /* Classes for applying different colors to text */
 
 .what {
-  color: var(--what-color)
+  color: var(--what-color);
 }
 
 .note {
-  color: var(--note-color)
+  color: var(--note-color);
 }
 
 .who {
-  color: var(--who-color)
+  color: var(--who-color);
 }
 
 h4 {
-  color: var(--h4-color) 
+  color: var(--h4-color);
+  margin: 0;
 }
 
 /* styles for tech and techs */
 .techs {
-  margin: 1rem;
-  
   /* flex */
   display: flex;
   flex-direction: row;

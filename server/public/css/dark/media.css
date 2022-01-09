@@ -55,14 +55,14 @@
     /* margin: 0; */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
   }
 
   .bootcamp {
     /* margin: 0; */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
   }
   /* could .projects, .about and .bootcamp be combined? */
 

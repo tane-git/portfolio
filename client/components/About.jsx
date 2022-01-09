@@ -1,15 +1,56 @@
 import React from 'react'
 
 export default function About () {
+  // return (
+  //   <div className='about'>
+  //     <div className='sectionTitle'>
+  //       <h1>About</h1>
+  //     </div>
+  //     <div className='aboutSection'>
+  //       <p>I have recently completed a bootcamp in Web Development after being fascinated by software all my life.</p>
+  //       <p>I am currently looking to join an awesome Dev Team that encourages and supports each other while working on cutting-edge Tech.</p>
+  //       <p>Please feel free to check out some of the projects I have developed and if you think I might be a good fit for your team reach out, I would love to discuss any oppurtunities.</p>
+  //     </div>
+  //   </div>
+  // )
+
+  // figure out view width to make table responsive
+  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+  const mobile = vw < 768
+
   return (
     <div className='about'>
       <div className='sectionTitle'>
         <h1>About</h1>
       </div>
-      <div className='aboutSection'>
-        <p>I have recently completed a bootcamp in Web Development after being fascinated by software all my life.</p>
-        <p>I am currently looking to join an awesome Dev Team that encourages and supports each other while working on cutting-edge Tech.</p>
-        <p>Please feel free to check out some of the projects I have developed and if you think I might be a good fit for your team reach out, I would love to discuss any oppurtunities.</p>
+      <div className='aboutTable'>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div className='myself'>
+                  <h4>Myself</h4>
+                  <p>I have recently completed a bootcamp in Web Development after being fascinated by software all my life.</p>
+                  <p>I am currently looking to join an awesome Dev Team that encourages and supports each other while working on cutting-edge Tech.</p>
+                  <p>Please feel free to check out some of the projects I have developed and if you think I might be a good fit for your team reach out, I would love to discuss any oppurtunities.</p>
+                </div>
+              </td>
+              {mobile ? (
+                <h1>test</h1>
+              ) : (
+                <h1>not mobile</h1>
+              )}
+              <td>
+                <div className='bootcamp'>
+                  <h4>Bootcamp</h4>
+                  <p>Enspiral Dev Academy was a 15-week intensive bootcamp that I completed at the end of 2021.</p>
+                  <p>My cohort and I got stuck in, developing Full Stack Web Applications as team in an intense but supportive environment</p>
+                  <p>Friday Projects were randomly selected teams, brainstorming a random and fun app idea to develop, to reinforce the tech we had learnt that week. They were fast-paced and hands-on and resulted in messy but inspiring results, proving to ourselfs how much we could accomplish in just 1 day if we worked as team.</p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   )
