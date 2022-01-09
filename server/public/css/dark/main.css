@@ -19,17 +19,20 @@ body {
   font-family: 'Open Sans';
   background-color: var(--bg-color);
   color: var(--text-color);
+  margin: 0px;
 }
 
 /* header */
 .header {
   width: auto;
   padding: 1rem;
-  margin: 1rem;
+  margin: 0rem;
   background-color: var(--s1-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 
 .titles {
