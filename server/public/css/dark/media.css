@@ -11,6 +11,10 @@
     font-size: 2rem;
     padding: 0rem;
   }
+
+  .projectColumn {
+    width: 100%;
+  }
 }
 
 /* CSS styles for phones */
@@ -46,6 +50,10 @@
   .projectSection {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .projectColumn {
+    width: 100%;
   }
   
   .panel {
