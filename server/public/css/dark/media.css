@@ -11,6 +11,22 @@
     font-size: 2rem;
     padding: 0rem;
   }
+
+  .projectColumn {
+    width: 100%;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .spaceholderHeader {
+    height: 0px;
+  }
+
+  .body {
+    margin: 0px;
+  }
 }
 
 /* CSS styles for phones */
@@ -20,6 +36,7 @@
     flex-direction: column;
     margin-left: 0;
     margin-right: 0; 
+    position: relative;
   }
 
   .icons {
@@ -46,6 +63,10 @@
   .projectSection {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .projectColumn {
+    width: 100%;
   }
   
   .panel {
