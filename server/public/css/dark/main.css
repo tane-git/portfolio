@@ -19,17 +19,28 @@ body {
   font-family: 'Open Sans';
   background-color: var(--bg-color);
   color: var(--text-color);
+  /* margin: 0px; */
 }
 
 /* header */
 .header {
   width: auto;
   padding: 1rem;
-  margin: 1rem;
+  padding-left: 2rem;
   background-color: var(--s1-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* fix header to top of page */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  /* ensuring icons aren't off the page */
+}
+
+.spaceholderHeader {
+  height: 103px;
 }
 
 .titles {
