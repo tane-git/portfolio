@@ -1,19 +1,18 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
-// import ErrorMessage from './ErrorMessage.jsx'
 
 // import Components
-import ExampleComponent from './ExampleComponent.jsx'
 import Header from './Header.jsx'
 import Projects from './Projects.jsx'
+import About from './About.jsx'
+import Bootcamp from './Bootcamp.jsx'
 
 function App () {
   return (
     <div className='app'>
       <Header />
+      <About />
+      <Bootcamp />
       <Projects />
-      {/* <Route path='/' component={ExampleComponent} /> */}
-      {/* <Route path='/' component={ErrorMessage} /> */}
     </div>
   )
 }
