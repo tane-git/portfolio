@@ -135,6 +135,7 @@ a:hover {
   border: none;
   outline: none;
   transition: 0.4s;
+  margin-bottom: 0px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -148,6 +149,7 @@ a:hover {
   background-color: var(--s3-color);
   display: none;
   overflow: hidden;
+  margin-top: 0px;
 }
 
 .projectPanel {
@@ -223,4 +225,21 @@ a:hover {
 
 h4 {
   color: var(--h4-color) 
+}
+
+/* styles for tech and techs */
+.techs {
+  margin: 1rem;
+  
+  /* flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tech {
+  margin: 0.5rem;
+  font-size: 2rem;
 }
