@@ -15,10 +15,10 @@
   .projectColumn {
     width: 100%;
   }
-
+/* 
   .header {
     position: relative;
-  }
+  } */
 
   .spaceholderHeader {
     height: 0px;
@@ -36,7 +36,7 @@
     flex-direction: column;
     margin-left: 0;
     margin-right: 0; 
-    position: relative;
+    /* position: relative; */
   }
 
   .icons {
@@ -45,9 +45,10 @@
 
   /* reducing side margins and paddings */
   .projects {
-    margin: 0;
+    /* margin: 0; */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    background-color: var(--bg-color);
   }
 
   .project {

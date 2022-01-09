@@ -1,6 +1,9 @@
 var acc = document.getElementsByClassName('accordion')
 var i
 
+// check what the viewport is
+const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+
 export default function accordion () {
   for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener('click', function () {
@@ -23,6 +26,11 @@ export default function accordion () {
       } else {
         panel.style.display = 'block'
         this.scrollIntoView()
+        if (vw < 625) {
+          window.scrollBy(0, -142)
+        } else {
+          window.scrollBy(0, -103)
+        }
       }
     })
   }

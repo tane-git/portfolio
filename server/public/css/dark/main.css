@@ -120,7 +120,8 @@ a:hover {
   padding: 1rem;
   padding-bottom: 1.5rem;
   margin: 1rem;
-  background-color: var(--s1-color);
+  /* background-color: var(--s1-color); */
+  background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
