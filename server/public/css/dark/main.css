@@ -150,6 +150,21 @@ a:hover {
   overflow: hidden;
 }
 
+.projectPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectInfo {
+  display: inline-block; 
+}
+
+.projectColumn {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
 
 /* project */
 .project {
