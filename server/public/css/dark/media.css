@@ -105,8 +105,22 @@
 }
 
 /* CSS styles for very small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 370px) {
   .header {
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
   }
+
+  .name {
+    font-size: 1.25rem;
+  }
+
+  .job {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  
 }
