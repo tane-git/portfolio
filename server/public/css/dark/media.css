@@ -1,5 +1,5 @@
 /* CSS styles for small tablets */
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 725px) {
   /* decreasing the sizes of the 'connect with me!' image and social media buttons */
   .connectImg {
     height: 2rem;
@@ -30,7 +30,7 @@
 }
 
 /* CSS styles for phones */
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 630px) {
   /* changing the header to fit a potrait screen */
    .header {
     flex-direction: column;
@@ -48,19 +48,19 @@
     /* margin: 0; */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
   }
 
   .about {
     /* margin: 0; */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
   }
 
   td {
-    background-color: var(--bg-color);
-    border: 0rem solid var(--bg-color);
+    /* background-color: var(--bg-color); */
+    /* border: 0rem solid var(--bg-color); */
   }
 
   .bootcamp {
