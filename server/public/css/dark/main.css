@@ -19,28 +19,20 @@ body {
   font-family: 'Open Sans';
   background-color: var(--bg-color);
   color: var(--text-color);
-  /* margin: 0px; */
+  margin: 0px;
 }
 
 /* header */
 .header {
   width: auto;
   padding: 1rem;
-  padding-left: 2rem;
+  margin: 0rem;
   background-color: var(--s1-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* fix header to top of page */
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100vw;
-  /* ensuring icons aren't off the page */
-}
-
-.spaceholderHeader {
-  height: 103px;
 }
 
 .titles {
@@ -91,6 +83,11 @@ h1 {
   padding: 0;
 }
 
+.name {
+  font-size: 3rem;
+  margin-left: 1.5rem;
+}
+
 h2 {
   /* font-family: 'Courier New', Arial; */
   font-family: 'Open Sans';
@@ -100,18 +97,22 @@ h2 {
   padding: 0;
 }
 
-.h3 {
+.job {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+}
+
+h3 {
   font-family: 'Open Sans';
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
 }
 
-.h4 {
+h4 {
   margin: 0;
   margin-bottom: 0.25rem;
-  /* color: var(--h4-color); */
-  color: red;
+  color: var(--h4-color);
 }
 
 a:visited {
@@ -122,16 +123,68 @@ a:hover {
   color: var(--text2-color);
 }
 
-/* projects */
 .projects {
   width: auto;
   padding: 1rem;
   padding-bottom: 1.5rem;
   margin: 1rem;
   background-color: var(--s1-color);
+  /* background-color: var(--bg-color); */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.about {
+  /* width: auto; */
+  padding: 1rem;
+  margin: 1rem;
+  background-color: var(--s1-color);
+}
+
+table {
+  border-spacing: 0px;
+  width: 100%;
+}
+
+tr {
+  /* width: 100%; */
+  /* height: auto; */
+}
+
+td {
+  /* margin: 1rem; */
+  padding: 1rem;
+  width: 50%;
+  height: 100px;
+  background-color: var(--s2-color);
+  border: 1rem solid var(--s1-color);
+  vertical-align: top;
+}
+
+
+.myself {
+  /* width: auto; */
+  /* padding: 1rem; */
+  margin: 1rem;
+  /* float: right; */
+  /* width: 50%; */
+}
+
+.bootcamp {
+  /* width: auto; */
+  /* padding: 1rem; */
+  margin: 1rem;
+  /* float: left; */
+  /* width: 50%; */
+}
+/* could .projects, .about and .bootcamp be combined? */
+
+.aboutAndBootcamp {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* float: left; */
+  /* width: 50%; */
 }
 
 /* accordion */
@@ -216,30 +269,25 @@ a:hover {
   width: auto;
   max-width: 100%;
   max-height: 100%;
+  margin: 1rem;
 }
 
 /* Classes for applying different colors to text */
 
 .what {
-  color: var(--what-color)
+  color: var(--what-color);
 }
 
 .note {
-  color: var(--note-color)
+  color: var(--note-color);
 }
 
 .who {
-  color: var(--who-color)
-}
-
-h4 {
-  color: var(--h4-color) 
+  color: var(--who-color);
 }
 
 /* styles for tech and techs */
 .techs {
-  margin: 1rem;
-  
   /* flex */
   display: flex;
   flex-direction: row;

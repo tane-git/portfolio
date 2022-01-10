@@ -12,10 +12,10 @@ export default function Header () {
       <div className='header'>
         <div className='titles'>
           <div className='title'>
-            <h1>Tane Wilson</h1>
+            <h1 className='name'>Tane Wilson</h1>
           </div>
           <div className='title'>
-            <h2>Software Developer</h2>
+            <h2 className='job'>Software Developer</h2>
           </div>
         </div>
         <div className='icons'>
