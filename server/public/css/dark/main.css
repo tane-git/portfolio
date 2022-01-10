@@ -2,9 +2,10 @@
 :root {
   --bg-color: rgb(50, 50, 50);
   /* section colors */
-  --s1-color: rgb(37, 37, 37);
-  --s2-color: rgb(30, 30, 30);
-  --s3-color: rgb(24, 26, 27);
+  --s1-color: rgb(37, 37, 37, 0.66);
+  --header-color: rgb(37, 37, 37);
+  --s2-color: rgb(30, 30, 30, 0.66);
+  --s3-color: rgb(24, 26, 27, 1);
   --s4-color: rgb(20, 20, 20);
   /* text colors */
   --h1-color: rgb(255, 255, 255);
@@ -13,6 +14,12 @@
   --h4-color: rgb(79, 193, 241);
   --text-color: rgb(204, 204, 206);
   --text2-color: rgb(51, 125, 255);
+  /* blueLine milky way pallete */
+  --bigStone: #121E39;
+  --perwinkleGray: #BCCAE8;
+  --waikawaGray: #6377AD;
+  --poloBlue: #7C9ACA;
+
 }
 
 body {
@@ -27,7 +34,9 @@ body {
   width: auto;
   padding: 1rem;
   margin: 0rem;
-  background-color: var(--s1-color);
+  background-color: var(--header-color);
+  /* how do i make just the background opacity 0.66 and not the text? */
+  /* opacity: 0.66; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
