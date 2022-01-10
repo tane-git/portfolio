@@ -1,4 +1,22 @@
-import React from 'react'
+import React, { useLayoutEffect, useState } from 'react'
+
+function useWindowSize () {
+  const [size, setSize] = useState()
+  useLayoutEffect(() => {
+    function updateSize () {
+      setSize(window.innerWidth)
+    }
+    window.addEventListener('resize', updateSize)
+    updateSize()
+    return () => window.removeEventListener('resize', updateSize)
+  }, [])
+  return size
+}
+
+// function getSize (props) {
+//   const width = useWindowSize()
+//   return <span>Window size: {width} x {height}</span>
+// }
 
 export default function About () {
   // return (
@@ -15,8 +33,11 @@ export default function About () {
   // )
 
   // figure out view width to make table responsive
-  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
-  const mobile = vw < 768
+  // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+  // const mobile = vw < 768
+
+  const size = useWindowSize()
+  const mobile = size < 768
 
   if (!mobile) {
     return (
