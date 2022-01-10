@@ -85,6 +85,7 @@ h1 {
 
 .name {
   font-size: 3rem;
+  margin-left: 1.5rem;
 }
 
 h2 {
@@ -98,6 +99,7 @@ h2 {
 
 .job {
   font-size: 2rem;
+  margin-left: 1.5rem;
 }
 
 h3 {
