@@ -41,14 +41,14 @@
 
   /* reducing side margins and paddings */
   .projects {
-    /* margin: 0; */
+    margin: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     /* background-color: var(--bg-color); */
   }
 
   .about {
-    /* margin: 0; */
+    margin: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     /* background-color: var(--bg-color); */
@@ -101,6 +101,10 @@
 
   .job {
     font-size: 1.75rem;
+  }
+
+  .aboutRoute {
+    padding: 0;
   }
 }
 
