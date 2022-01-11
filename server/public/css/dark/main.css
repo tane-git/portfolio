@@ -316,3 +316,7 @@ td {
   margin: 0.5rem;
   font-size: 2rem;
 }
+
+.home:hover {
+  color: var(--comp-color)
+}

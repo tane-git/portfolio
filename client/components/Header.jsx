@@ -1,9 +1,13 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import home icon from font awesome
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 const github = <FontAwesomeIcon icon={faGithub} size="lg" />
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} size="lg" />
+const home = <FontAwesomeIcon icon={faHome} size="lg" />
 
 export default function Header () {
   return (
@@ -33,8 +37,11 @@ export default function Header () {
               {github}
             </a>
           </div>
-          <div className='icon'></div>
-          <div className='icon'></div>
+          <div className='icon home'>
+            <Link to='/' className='iconLink home'>
+              {home}
+            </Link>
+          </div>
         </div>
       </div>
     </>
