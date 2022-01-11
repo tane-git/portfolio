@@ -2,10 +2,12 @@
 :root {
   --bg-color: rgb(50, 50, 50);
   /* section colors */
-  --s1-color: rgb(37, 37, 37);
-  --s2-color: rgb(30, 30, 30);
-  --s3-color: rgb(24, 26, 27);
-  --s4-color: rgb(20, 20, 20);
+  --header-color: rgb(37, 37, 37);
+  --s1-color: rgb(37, 37, 37, 0.6);
+  --s2-color: rgb(30, 30, 30, 0.8);
+  /* active color */
+  --s3-color: rgb(24, 26, 27, 0.6);
+  --s4-color: rgb(20, 20, 20, 0.8);
   /* text colors */
   --h1-color: rgb(255, 255, 255);
   --h2-color: rgb(51, 125, 255);
@@ -13,11 +15,22 @@
   --h4-color: rgb(79, 193, 241);
   --text-color: rgb(204, 204, 206);
   --text2-color: rgb(51, 125, 255);
+  /* blueLine milky way pallete */
+  --bigStone: #121E39;
+  --perwinkleGray: #BCCAE8;
+  --waikawaGray: #6377AD;
+  --poloBlue: #7C9ACA;
+  /* figma */
+  /* --intro-color: #26262B; */
+  --intro-color: rgb(38, 38, 43, 0.9);
+  --intro-color-full: rgb(38, 38, 43);
+  /* color-wheel */
+  --comp-color: #FFFF13;
 }
 
 body {
   font-family: 'Open Sans';
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   color: var(--text-color);
   margin: 0px;
 }
@@ -27,7 +40,9 @@ body {
   width: auto;
   padding: 1rem;
   margin: 0rem;
-  background-color: var(--s1-color);
+  background-color: var(--header-color);
+  /* how do i make just the background opacity 0.66 and not the text? */
+  /* opacity: 0.66; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -157,8 +172,8 @@ td {
   padding: 1rem;
   width: 50%;
   height: 100px;
-  background-color: var(--s2-color);
-  border: 1rem solid var(--s1-color);
+  background-color: var(--s4-color);
+  /* border: 1rem solid var(--border-color); */
   vertical-align: top;
 }
 
@@ -246,6 +261,7 @@ td {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  padding-bottom: 1rem;
 }
 
 .projectSection {
@@ -299,4 +315,8 @@ td {
 .tech {
   margin: 0.5rem;
   font-size: 2rem;
+}
+
+.home:hover {
+  color: var(--comp-color)
 }

@@ -1,8 +1,13 @@
 var acc = document.getElementsByClassName('accordion')
 var i
 
-// check what the viewport is
-const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+let vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+
+// add an event listener to check what the viewport is
+window.addEventListener('resize', () => {
+  // check what the viewport is
+  vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+})
 
 export default function accordion () {
   for (i = 0; i < acc.length; i++) {
@@ -27,9 +32,10 @@ export default function accordion () {
         panel.style.display = 'block'
         this.scrollIntoView()
         if (vw < 625) {
-          window.scrollBy(0, -142)
+          window.scrollBy(0, -202)
         } else {
-          window.scrollBy(0, -103)
+          console.log('-110')
+          window.scrollBy(0, -158)
         }
       }
     })
