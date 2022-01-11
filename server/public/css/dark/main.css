@@ -151,6 +151,7 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   max-width: 1327px;
+  border-radius: 25px;
 }
 
 .about {
@@ -159,6 +160,7 @@ a:hover {
   margin: 1rem;
   background-color: var(--s1-color);
   max-width: 1327px;
+  border-radius: 25px;
 }
 
 table {
@@ -203,7 +205,7 @@ td {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: var(--s2-color);
-  /* color: var(--text-color); */
+  color: var(--h2-color);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -212,6 +214,8 @@ td {
   outline: none;
   transition: 0.4s;
   margin-bottom: 0px;
+  font-family: 'Orbitron', 'Open sans';
+  border-radius: 12.5px;
 }
 
 .projectsIntro {
@@ -223,6 +227,7 @@ td {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: var(--s3-color);
+  color: var(--comp-color)
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -232,6 +237,7 @@ td {
   display: none;
   overflow: hidden;
   margin-top: 0px;
+  border-radius: 12.5px;
 }
 
 .projectPanel {
@@ -286,13 +292,14 @@ td {
 
 .projectImg {
   width: auto;
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 60%;
+  max-height: 60%;
   margin: 1rem;
 }
 
 .projectImg:hover {
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
+  box-shadow: 1px 1px 1px 1px var(--comp-color);
 }
 
 /* Classes for applying different colors to text */
@@ -346,4 +353,9 @@ p {
   font-size: 3rem;
   display: flex;
   justify-content: center;
+}
+
+.projectTitle {
+  font-family: 'Orbitron', 'Open sans';
+  font-size: 1.75rem;
 }

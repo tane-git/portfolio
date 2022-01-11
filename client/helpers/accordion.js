@@ -31,7 +31,9 @@ export default function accordion () {
       } else {
         panel.style.display = 'block'
         this.scrollIntoView()
-        if (vw < 625) {
+        if (vw < 370) {
+          window.scrollBy(0, -149)
+        } else if (vw <= 660) {
           window.scrollBy(0, -202)
         } else {
           console.log('-110')

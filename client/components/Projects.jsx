@@ -18,7 +18,7 @@ export default function Projects () {
       {projects.map(project => {
         return (
           <div className='project' key={project.title}>
-            <button className='accordion'><h2>{project.title}</h2></button>
+            <button className='accordion'><div className='projectTitle'>{project.title}</div></button>
             <div className='panel'>
               <Project project={project} />
             </div>

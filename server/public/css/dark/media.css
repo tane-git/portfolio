@@ -1,5 +1,5 @@
 /* CSS styles for small tablets */
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 800px) {
   /* decreasing the sizes of the 'connect with me!' image and social media buttons */
   .connectImg {
     height: 2rem;
@@ -26,7 +26,7 @@
 }
 
 /* CSS styles for phones */
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 660px) {
   /* changing the header to fit a potrait screen */
    .header {
     flex-direction: column;
