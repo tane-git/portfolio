@@ -10,7 +10,7 @@ export default function projectsData () {
       tech: ['react', 'redux', 'node', 'sql', 'knex', 'express', 'html', 'css', 'webpack', 'javascript'],
       image: 'argumentum-ipad.PNG',
       imageAlt: 'Screenshot of the Argumentum chat room',
-      note: 'This app takes a while to load at first but will then be fast'
+      note: 'This app takes a while to load at first but then will be fast.'
     },
     {
       title: 'Cruellas',
@@ -39,7 +39,7 @@ export default function projectsData () {
     {
       title: 'Santa\'s Shopping List',
       type: 'Bootcamp Friday Project',
-      what: 'A React web app that allows the Bootcamp students to add things to santa\'s shopping List.',
+      what: 'A React web app that allows the cohort to add things to santa\'s shopping List.',
       who: 'A team of 4. We worked closely as a team to put our fresh React skills to use.',
       link: 'https://santas-shopping-list.herokuapp.com/#/',
       github: 'https://github.com/horoeka-2021/Duck-Size-Bear/',
@@ -52,12 +52,12 @@ export default function projectsData () {
       title: 'FiatCoin',
       type: 'Bootcamp Friday Project',
       what: 'A server-side rendered web app with a database, that allows users to sell antique coins for dogecoins. "Trade your useless coins for dogecoins!"',
-      who: 'A team of 4, I worked on the non-design aspects of the project.',
+      who: 'A team of 4, I worked on the back-end.',
       github: 'https://github.com/horoeka-2021/week_three_dogecoin',
       tech: ['node', 'express', 'knex', 'sqlite3', 'postgresql', 'handlebars', 'html', 'css', 'tailwind', 'javascript', 'supertest'],
       image: 'fiatcoin-ipad.PNG',
       imageAlt: 'Screenshot of the FiatCoin homepage',
-      note: 'Demo currently unavailable'
+      note: 'Demo currently unavailable.'
     },
     {
       title: 'Cats vs Birds',

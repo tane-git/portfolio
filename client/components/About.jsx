@@ -60,7 +60,7 @@ export default function About () {
                   <div className='bootcamp'>
                     <h2>Bootcamp</h2>
                     <p>Enspiral Dev Academy was a 15-week intensive bootcamp that I completed at the end of 2021.</p>
-                    <p>My cohort and I got stuck in, developing Full Stack Web Applications as team, in an intense but encouraging and supportive environment</p>
+                    <p>My cohort and I got stuck in, developing Full Stack Web Applications as a team, in an intense but encouraging and supportive environment.</p>
                   </div>
                 </td>
               </tr>

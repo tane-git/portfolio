@@ -14,7 +14,7 @@ export default function Project (props) {
   if (project.type === 'Personal Project') {
     projectType = <h3>Personal Project</h3>
   } else if (project.type === 'Bootcamp Friday Project') {
-    projectType = <><p>We were randomly sorted into teams, and then given complete freedom to develop any random app we wanted, to reinforce the tech we had just learnt that week.</p><p>The projects were fast-paced, hands-on and resulted in messy but inspiring results, proving to ourselfs how much we could accomplish in just 1 day, if we worked as team. </p></>
+    projectType = <><p>We were randomly sorted into teams, and then given complete freedom to develop any random app we wanted, to reinforce the tech we had just learnt that week.</p><p>The projects were fast-paced, hands-on and resulted in messy but inspiring results, proving to ourselfs how much we could accomplish in just 1 day, if we worked as team.</p></>
   } else if (project.type === 'Bootcamp Final Project') {
     projectType = <><p>The final projects began with a cohort wide brainstorming and voting session to decide on the final ideas and teams. </p><p>We then spent the next week working around the clock, as an agile team, to develop an app and cement our coding skills.</p></>
   }
