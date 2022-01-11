@@ -142,7 +142,11 @@ a:hover {
 }
 
 .projects {
-  width: auto;
+  /* why wont the projects become the right width??? */
+  /* width: auto; */
+  /* width: fill-available; */
+  /* width: fit-content; */
+  /* width: 100%; */
   padding: 1rem;
   padding-bottom: 1.5rem;
   margin: 1rem;
@@ -150,6 +154,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: stretch;
   max-width: 1327px;
   border-radius: 25px;
 }
@@ -342,6 +347,7 @@ td {
   /* max-width: 1400px; */
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
   align-items: stretch;
   padding: 1rem;
 }
@@ -359,4 +365,10 @@ p {
 .projectTitle {
   font-family: 'Orbitron', 'Open sans';
   font-size: 1.75rem;
+}
+
+/* easy way to center and stretch to justify content */
+.bugFix {
+  display: flex;
+  justify-content: center;
 }
