@@ -157,7 +157,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.25rem;
     height: 1.5rem;
     line-height: 1rem;
     margin-top: 1rem;
@@ -209,8 +209,8 @@
     text-align: center; 
     width: 258px;
   
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
