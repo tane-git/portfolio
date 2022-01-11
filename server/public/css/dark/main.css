@@ -181,6 +181,7 @@ td {
   background-color: var(--s4-color);
   /* border: 1rem solid var(--border-color); */
   vertical-align: top;
+  border-radius: 12.5px;
 }
 
 

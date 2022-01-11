@@ -126,3 +126,127 @@
 .portfolioButton:hover {
   background-color: var(--comp-color)
 }
+
+
+/* styles for mobile */
+@media screen and (max-width: 800px) {
+  .intro {
+    /* style code */
+    border-radius: 12.5px;
+    background-color: var(--intro-color);
+    /* position code */
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-166px;
+    margin-top:-166px;
+    /* layout code */
+    padding: 16px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    /* text code */
+    padding-top: 0px;
+    padding-bottom: 26px;
+  }
+  
+  .introName {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 1.5rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+  
+    color: #CCCCCE;
+  }
+  
+  .introJobSection {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .introJob {
+    /* position: absolute;
+    width: 663px;
+    height: 113px;
+    left: 402px;
+    top: 255px; */
+  
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    /* line-height: 87px; */
+    /* line-height: 67px; */
+  
+    /* color: var(--poloBlue); */
+    color: var(--comp-color);
+  
+    /*centre text */
+    text-align: center;
+  
+    /* make name and job closer */
+    /* margin-bottom: 12px; */
+  }
+  
+  .introDescriptionHolder {
+    width: 300px;
+    display: flex;
+    justify-content: center
+  }
+  
+  .introDescription {
+    font-family: 'Open Sans Hebrew', 'Open Sans';
+    font-style: normal;
+    /* font-weight: 300; */
+    font-size: 1rem;
+    /* line-height: 30px; */
+    text-align: center; 
+    width: 258px;
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+  }
+  
+  .introIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end
+  }
+  
+  .linkedIn {
+    font-size: 1.5rem;
+  }
+  
+  .git {
+    font-size: 2rem;
+  }
+  
+  .portfolioButton {
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+  
+    font-family: 'Orbitron', 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* line-height: 60px; */
+    text-align: center;
+    /* background-color: var(--comp-color); */
+  }
+  
+  .portfolioLink {
+    text-decoration: none;
+    /* color: var(--intro-color) */
+  }
+}
