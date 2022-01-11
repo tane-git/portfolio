@@ -1,5 +1,5 @@
 /* CSS styles for small tablets */
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 775px) {
   /* decreasing the sizes of the 'connect with me!' image and social media buttons */
   .connectImg {
     height: 2rem;

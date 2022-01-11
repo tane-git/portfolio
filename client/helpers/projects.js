@@ -2,6 +2,7 @@ export default function projectsData () {
   const projects = [
     {
       title: 'Argumentum',
+      type: 'Bootcamp Final Project',
       what: 'A Bootcamp Final Week Project, full stack web application, that allows users to select topics they are intereted in discussing, and then allows them to live chat with people that may disagree with them.',
       who: 'A team of 4. I was the Frontend Lead and Product Owner.',
       link: 'https://argumentum-eda.herokuapp.com',
@@ -13,6 +14,7 @@ export default function projectsData () {
     },
     {
       title: 'Cruellas',
+      type: 'Bootcamp Friday Project',
       what: 'A Bootcamp Friday Project, full stack web application, which is based on the idea that everyone is the best in the world at something! What are you the best in the world at? Add your skill to our website and include a little story to explain and our app will generate a full blown story for your skill and display it on the homepage.',
       who: 'A team of 4. We worked together closely on the front and backend.',
       link: 'https://cruellas.herokuapp.com',
@@ -24,6 +26,7 @@ export default function projectsData () {
     },
     {
       title: 'CoinGun',
+      type: 'Bootcamp Friday Project',
       what: 'A Bootcamp Friday Project web app that shows the currently trending cryptocurrencies on GeckoCoin.com',
       who: 'A team of 4, my pair programming partner and I did the Backend and integration into the Frontend.',
       link: 'http://coingun.herokuapp.com/#/',
@@ -35,6 +38,7 @@ export default function projectsData () {
     },
     {
       title: 'Santa\'s Shopping List',
+      type: 'Bootcamp Friday Project',
       what: 'A Bootcamp Friday project, React web app that allows the Bootcamp students to add things to santa\'s shopping List.',
       who: 'A team of 4. We worked closely as a team to put our fresh React skills to use.',
       link: 'https://santas-shopping-list.herokuapp.com/#/',
@@ -46,6 +50,7 @@ export default function projectsData () {
     },
     {
       title: 'FiatCoin',
+      type: 'Bootcamp Friday Project',
       what: 'A Bootcamp Friday Project, server-side rendered web app with a database, that allows users to sell antique coins for dogecoins. "Trade your useless coins for dogecoins!"',
       who: 'A team of 4, I worked on the non-design aspects of the project.',
       github: 'https://github.com/horoeka-2020/week_three_dogecoin',
@@ -56,6 +61,7 @@ export default function projectsData () {
     },
     {
       title: 'Cats vs Birds',
+      type: 'Bootcamp Friday Project',
       what: 'A Bootcamp Friday Project, server-side rendered website that allows bird watchers to submit their sightings of birds, and responsible cat owners to register their pets, and then we identify areas where birds are in danger.',
       who: 'A team of 3, we all worked closely together to put our freshly learnt coding skills to use.',
       link: 'https://cats-vs-birds.herokuapp.com/',
