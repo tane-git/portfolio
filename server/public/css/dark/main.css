@@ -20,7 +20,12 @@
   --perwinkleGray: #BCCAE8;
   --waikawaGray: #6377AD;
   --poloBlue: #7C9ACA;
-
+  /* figma */
+  /* --intro-color: #26262B; */
+  --intro-color: rgb(38, 38, 43, 0.9);
+  --intro-color-full: rgb(38, 38, 43);
+  /* color-wheel */
+  --comp-color: #FFFF13;
 }
 
 body {
