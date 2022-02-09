@@ -9,6 +9,7 @@ export default function Techs (props) {
       {project.tech.map((tech, i) => {
         // how can I make this more programattic?
         switch (tech) {
+          case 'next': return <div key={i} className='tech'><span className="iconify" data-icon="cib:next-js"></span></div>
           case 'react': return <div key={i} className='tech'><span className="iconify" data-icon="logos:react"></span></div>
           case 'redux': return <div key={i} className='tech'><span className="iconify" data-icon="logos:redux"></span></div>
           case 'node': return <div key={i} className='tech'><span className="iconify" data-icon="logos:nodejs"></span></div>

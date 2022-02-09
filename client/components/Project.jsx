@@ -12,7 +12,7 @@ export default function Project (props) {
   let projectType = ''
 
   if (project.type === 'Personal Project') {
-    projectType = <h3>Personal Project</h3>
+    projectType = <></>
   } else if (project.type === 'Bootcamp Friday Project') {
     projectType = <><p>We were randomly sorted into teams, and then given complete freedom to develop any random app we wanted, to reinforce the tech we had just learnt that week.</p><p>The projects were fast-paced, hands-on and resulted in messy but inspiring results, proving to ourselfs how much we could accomplish in just 1 day, if we worked as team.</p></>
   } else if (project.type === 'Bootcamp Final Project') {

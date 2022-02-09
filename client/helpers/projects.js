@@ -1,6 +1,18 @@
 export default function projectsData () {
   const projects = [
     {
+      title: 'Next.js Portfolio',
+      type: 'Personal Project',
+      what: 'A new version of this website built with Next.js, a framework for React, that allows the server to send the client a pre-rendered HTML page. This significantly increases the speed of the initial load of the website. Once the initial page has loaded, the web app is \'hydraded\' with the React magic.',
+      who: 'Myself',
+      link: 'https://tane-wilson.com',
+      github: 'https://github.com/tane-git/nextPortfolio',
+      tech: ['next', 'react', 'html', 'css'],
+      image: 'portfolio-ipad.PNG',
+      imageAlt: 'Screenshot of the nextPortfolio website',
+      note: 'Check out how fast it loads! This website is still in production so watch out for bugs.'
+    },
+    {
       title: 'Argumentum',
       type: 'Bootcamp Final Project',
       what: 'A full stack web application, that allows users to select topics they are intereted in discussing, and then allows them to live chat with people that may disagree with them.',
